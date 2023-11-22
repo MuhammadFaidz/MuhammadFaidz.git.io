@@ -1,0 +1,48 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+/* .bg {
+  background-color: #c0c0c0;
+  background-size: cover;
+  height: 800px;
+} */
+
+nav {
+  background-color: transparent;
+  display: flex;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  margin-left: 60%;
+  margin-top: 15px;
+  gap: 3rem;
+}
+
+li a {
+  color: red;
+  text-decoration: none;
+}
+
+li a:hover {
+  font-family: Tahoma;
+  font-size: 20px;
+  color: brown;
+}
+
+.logo {
+  font-family: "sans-serif";
+  display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 30px;
+  color: brown;
+}
+
+span {
+  color: red;
+}
